@@ -5,7 +5,7 @@ import java.math.BigInteger;
 /*
  *  Desc: This class generates primes, twin primes, and hexagon crosses using BigInteger data types.
  */
-public class Primes {
+public class PrimeOperations { 
 	
 	// Pair class implementation.
 	private class Pair<T> {
@@ -63,7 +63,7 @@ public class Primes {
 		System.out.print("Total Primes: ");
 		System.out.println(Primes.size());
 		
-		
+		 
 	}
 		
 	// Output the twin prime list. Each twin prime should be on a separate line with a comma separating them, and the total number of twin primes should be on the following line.
@@ -86,7 +86,7 @@ public class Primes {
 		{
 			
 				System.out.print("Prime Pairs: ");
-				System.out.print(Hexes.get(i).get(0).getFirst());
+		 		System.out.print(Hexes.get(i).get(0).getFirst());
 				System.out.print(", ");
 				System.out.print(Hexes.get(i).get(0).getSecond());
 				System.out.print(" and ");
